@@ -34,6 +34,3 @@ function App() {
 }
 
 export default App;
-//MongoDB project password for mongoURI link:
-//gKNf7YbWRXvGAOzK
-//username: fbclient
