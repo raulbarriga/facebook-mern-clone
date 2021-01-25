@@ -29,7 +29,7 @@ const Post = ({ profilePic, imgName, username, timestamp, message }) => {
               imgName ? (
                 <div className="post__image">
                   {/* use http://localhost:9000/ for development for backend fetch here */}
-                  {/* use https://facebookmernclone.herokuapp.com for production deployment */}
+                  {/* use deploy path from heroku for production deployment */}
                   <img src={`http://localhost:9000/retrieve/image/single?name=${imgName}`} alt={`${imgName}`} />
                 </div>
               ) : (
